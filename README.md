@@ -17,3 +17,8 @@ Paket hazırlanıyor.
 ```shell
 python setup.py sdist bdist_wheel
 ```
+
+Paket paket yükleyici kuruluyor.
+```shell
+python -m pip install --user --upgrade twine
+````
