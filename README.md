@@ -12,3 +12,8 @@ Setuptools whell araçları güncelleniyor.
 ```shell
 python -m pip install --user --upgrade setuptools wheel
 ```
+
+Paket hazırlanıyor.
+```shell
+python setup.py sdist bdist_wheel
+```
