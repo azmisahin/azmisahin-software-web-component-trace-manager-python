@@ -22,3 +22,8 @@ Paket paket yükleyici kuruluyor.
 ```shell
 python -m pip install --user --upgrade twine
 ````
+
+Paket Yayınlanıyor.
+```shell
+python -m twine upload dist/*
+```
